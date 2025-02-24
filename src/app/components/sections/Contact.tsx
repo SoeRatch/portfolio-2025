@@ -14,7 +14,7 @@ const Contact = () => {
           <div className="border-t border-gray-600 pt-4">
             <p>🏙️ <strong>Looking for Opportunities In:</strong></p>
             <p className="text-yellow-400">📌 Bangalore, India</p>
-            <p className="text-yellow-400">🌍 USA | Canada | Germany | Netherlands | Sweden | Australia</p>
+            <p className="text-yellow-400">🌍 USA | Switzerland | Canada  | Australia | Netherlands </p>
           </div>
         </div>
       </div>
