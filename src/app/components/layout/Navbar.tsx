@@ -41,7 +41,7 @@ const Navbar: React.FC<NavbarProps> = ({ links, resumeUrl }) => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
-          <span className="text-[var(--text-color)] text-2xl font-semibold">My Portfolio</span>
+          <span className="text-[var(--text-color)] text-2xl font-semibold">Suraj Sharma</span>
         </Link>
 
         {/* Desktop Navigation */}
