@@ -1,21 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --primary-bg: #121212; /* Deep black background */
+  --primary-bg-rgba: rgba(30, 30, 30, 0.8);
+  --secondary-bg: #1F1F1F; /* Slightly lighter black for contrast */
+  --accent: #00FFFF; /* Neon Cyan for a futuristic touch */
+  --text-color: #E0E0E0; /* Soft white for readability */
+  --hover-bg: #00FFFF; /* Neon hover effect */
+  --hover-text: #000000; /* Black hover text for contrast */
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
 }
