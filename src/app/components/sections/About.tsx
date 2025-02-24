@@ -2,6 +2,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";  // ✅ Import Next.js Image component
 
 const About = () => {
   return (
@@ -31,7 +32,7 @@ const About = () => {
             <strong> machine learning</strong> into real-world applications, I thrive on building meaningful, future-proof solutions.
           </p>
           <p className="text-lg leading-relaxed mt-6 font-semibold">
-          Always eager to collaborate and tackle new challenges. If you're looking for an experienced engineer, let's discuss how I can add value to your team!
+            Always eager to collaborate and tackle new challenges. If you're looking for an experienced engineer, let's discuss how I can add value to your team!
           </p>
         </motion.div>
 
@@ -43,10 +44,16 @@ const About = () => {
           className="flex justify-center"
         >
           <div className="relative w-56 md:w-64 lg:w-72 rounded-full overflow-hidden shadow-lg shadow-gray-700">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20"></div>
-          <img src="/developer.png" alt="Suraj Sharma" className="w-full h-full object-cover" />
-        </div>
-
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20"></div>
+            <Image 
+              src="/developer.png" 
+              alt="Suraj Sharma" 
+              width={288} // Adjust width based on your design (lg:w-72 → 288px)
+              height={288} 
+              className="w-full h-full object-cover"
+              priority // ✅ Optimize loading
+            />
+          </div>
         </motion.div>
       </div>
     </section>
