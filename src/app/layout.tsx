@@ -35,7 +35,7 @@ export default function RootLayout({
             { name: "About", href: "#about" },
             { name: "Contact", href: "#contact" },
           ]}
-          resumeUrl="/resume.pdf"
+          resumeUrl="/SurajSharma_Resume.pdf"
         />
         {children}
         <Footer />

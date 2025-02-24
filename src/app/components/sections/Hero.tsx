@@ -36,7 +36,7 @@ const Hero = () => {
 
       {/* Resume Button */}
       <a
-        href="/resume.pdf"
+        href="/SurajSharma_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-6 inline-block px-6 py-3 border border-yellow-500 text-yellow-500 font-semibold rounded-lg 
