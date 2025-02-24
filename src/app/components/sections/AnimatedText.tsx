@@ -28,7 +28,7 @@ const AnimatedText = () => {
 
   useEffect(() => {
     let charIndex = 0;
-    let currentWord = words[index];
+    const currentWord = words[index];
     let scrambledText = scramble(currentWord);
 
     const interval = setInterval(() => {

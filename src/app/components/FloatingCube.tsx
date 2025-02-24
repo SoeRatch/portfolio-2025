@@ -1,7 +1,7 @@
 "use client";
 
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Image, OrbitControls, Text } from "@react-three/drei";
+import { OrbitControls, Text } from "@react-three/drei";
 import { useRef, useState } from "react";
 import * as THREE from "three";
 import InteractiveFace from "./InteractiveFace";

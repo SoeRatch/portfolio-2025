@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import AnimatedText from "./AnimatedText";
